@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.conteu img {margin: 8px; float:left;}
+
+#titulo {font-size:40px;}
+
+#pug {font-size:20px; float:right;}
+#poodle {font-size:20px; float:right;} 
+#pinscher {font-size:20px; float:right;}
+#golden {font-size:20px; float:right;}
+#alemao {font-size:20px; float:right;}
+
+
+

@@ -1,0 +1,119 @@
+@meta charset="utf-8";
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*BANNER*/
+
+
+.banner{
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+
+.imgs-banner{
+	/*border: 1px solid black;*/
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	margin-top: 100px;
+}
+
+.imgs-banner img{
+	position: absolute;
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+} 
+
+@keyframes animacao{
+
+	25%{
+		opacity: 1;
+		transform: scale(1.1, 1.1);
+	}
+
+	50%{
+		opacity: 0;
+
+	}
+
+}
+
+
+
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+	animation-delay: 5s;
+}
+.foto:nth-child(3){
+	animation-delay: 10s;
+}
+.foto:nth-child(4){
+	animation-delay: 15s;
+}
+
+
+
+
+
+/*ULTIMOS PRODUTOS*/
+
+.prods{
+	margin-top: 20px;
+}
+
+.prods h3{
+	font-size: 12px;
+	margin-right: 0px;
+	font-family: 'Poppins', sans-serif;
+	color: #8d8e8e;
+
+}
+
+.prods h2{
+	text-align: center;
+	background-color: #bbbbbb;
+	padding: 5px;
+	color: #5a5b5b;
+	font-family: 'Pangolin', cursive;
+}
+
+/*PRODUTOS*/
+
+.racoes ul{
+	list-style: none;
+}
+
+.racoes li{
+	display: inline-block;
+	/*border: 1px solid black;*/
+	width: 150px;
+	height: 130px;
+	margin: 20px 35px 0px 35px;
+}
+
+
+
+.racoes figcaption{
+	color: #000000;
+	text-align: center;
+	top: 50px;
+	font-size: 8pt;
+}
+
+.racoes span{
+	color: blue;
+	font-size: 12pt;
+}
+
+
+/*RODAPE*/
+
+footer.rodape{
+	
+}

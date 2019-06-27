@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Petshop - BasPet</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilobase.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<script language="JavaScript" src="js/menu.js"></script>
+	</head>
+	
+	<body>
+	
+		<div id="faixa">
+			<p><a href="login.php">Login</a></p>
+		</div>
+		
+		<header class="cabecalho">
+		
+			<h1 class="logo">
+				<a href="index.html" title="BasPet - Petshop">Petshop BasPet</a>
+			</h1>
+			
+			<form action="busca.php" method="post">
+				<input type="search" name="busc" placeholder="Buscar algo...">
+				<button><i class="fas fa-search"></i></button>
+			</form>
+			
+			<img src="imgs/menuJS/icone.png" id="foto-menu">
+			
+		</header>
+		
+		
+	<nav class="menu" onmouseout="mudaFoto('imgs/menuJS/icone.png')">
+		<ul>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/dog.png')"><a href="rac-cachorro.html">Cachorros</a>
+				<ul>
+					<li><a href="prod-cachorro.html">Produtos</a></li>
+					<li><a href="rac-cachorro.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/cat.png')"><a href="rac-gato.html">Gatos</a>
+				<ul>
+					<li><a href="prod-gato.html">Produtos</a></li>
+					<li><a href="rac-gato.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/ave.png')"><a href="rac-ave.html">Aves</a>
+				<ul>
+					<li><a href="prod-ave.html">Produtos</a></li>
+					<li><a href="rac-ave.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/casa.png')"><a href="hotelaria.html">Serviços</a>
+				<ul>
+					<li><a href="hotelaria.html">Hotelaria</a></li>
+					<li><a href="funcionamento.html" style="font-size: 12px;">Funcionamento</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/camera.png')"><a href="fotos.html">Pets</a>
+				<ul>
+					<li><a href="fotos.html">Fotos</a></li>
+					<li><a href="racas.html">Sobre as Raças</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/osso.png')"><a href="dic-nutricionais.html">Dicas</a>
+				<ul>
+					<li><a href="dic-nutricionais.html">Nutricionais</a></li>
+					<li><a href="dic-banho.html">Banho</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/adota.png')"><a href="pq-adotar.html">Adoções</a>
+				<ul>
+					<li><a href="pq-adotar.html">Por que adotar?</a></li>
+					<li><a href="como-adotar.html">Como adotar?</a></li>
+					<li><a href="apadrinhar.html">Apadrinhar um pet</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/quem.png')"><a href="quem-somos.html">Sobre Nós</a>
+				<ul>
+					<li><a href="quem-somos.html">Quem Somos</a></li>
+					<li><a href="pcs.html">Parceiros</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/fale.png')"><a href="fale-conosco.html">Contato</a>
+				<ul>
+					<li><a href="fale-conosco.html">Enviar Mensagem</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/adm.png')"><a href="login.html">Administrativo</a>
+				<ul>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="listagem.html">Listagem de Dados</a></li>
+					<li><a href="tela-inclusao.html">Tela de Inclusão</a></li>
+					<li><a href="tela-exclusao.html">Tela de Exclusão</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+		
+	</nav>
+	
+		<section>
+		
+			<h1>LUAN</h1>
+			</h2>Tela de Inclusão</h2>
+		
+	
+		</section>
+	
+	<footer class="rodape">
+	
+		<h2>BASPET 2018 <span>&copy;</span></h2>
+		<h4>Direitos Reservados &reg;</h4>
+	
+		<div class="social">
+			<a href="#" class="btn-facebook" id="face"> <i class="fab fa-facebook-f fa-lg"></i> </a>
+			<a href="#" class="btn-twiter" id="twiter"> <i class="fab fa-twitter fa-lg"></i> </a>
+			<a href="#" class="btn-google" id="google"> <i class="fab fa-google-plus-g fa-lg"></i> </a>
+		</div>
+		
+	</footer>
+		
+			
+	</body>
+</html>

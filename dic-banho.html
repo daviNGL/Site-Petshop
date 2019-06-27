@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Petshop - BasPet</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilobase.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rell="stylesheet" type="text/css" href="css/estilo-banho.css">
+		<script language="JavaScript" src="js/menu.js"></script>
+		<style>
+
+			@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+			@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+			@import url('https://fonts.googleapis.com/css?family=Yatra+One');
+
+			h1#titulo{
+				text-align: center;
+				margin: 50px;
+				font-size: 20pt;
+				color: #7f8184;
+				font-family: 'Kavivanar', cursive;
+			}
+
+			section{
+				width: 100%;
+			}
+
+			.cima h2{
+				font-family: 'Kavivanar', cursive;
+			}
+
+			.cima p{
+				font-family: 'Kavivanar', cursive;
+			}
+
+			.cima #texto{
+				float: left;
+				width: 50%;
+				border: 1px solid white;
+				background-color: #87e1ed;
+				box-shadow: 1px 1px 3px black;
+				border-radius: 5px;
+				line-height: 30px;
+				padding: 5px;
+			
+			}
+
+			.cima #imagem{
+				float: left;
+				width: 20%;
+				margin: 20px;
+			}
+
+			.cima #desbug{
+				clear: both;
+			}
+
+			.conteudo{
+				width: 90%;
+				margin: auto;
+				line-height: 20px;
+				margin-bottom: 40px;
+			}
+
+			.conteudo h2{
+				text-align: center;
+				margin: 25px;
+				color: #7f8184;
+				font-family: 'Kavivanar', cursive;
+				font-size: 15pt;
+
+			}
+
+			.conteudo p{
+				font-family: 'Ubuntu', sans-serif;
+			}
+
+			.conteudo h3{
+				margin: 30px;
+			/*	background-color: #cecece; 9*/
+				font-family: 'Yatra One', cursive;
+				color: #5d5f60;
+			}
+
+		</style>
+	</head>
+	
+	<body>
+	
+
+		
+		<header class="cabecalho">
+		
+			<h1 class="logo">
+				<a href="index.html" title="BasPet - Petshop">Petshop BasPet</a>
+			</h1>
+			
+			<form action="busca.php" method="post">
+				<input type="search" name="busc" placeholder="Buscar algo...">
+				<button><i class="fas fa-search"></i></button>
+			</form>
+			
+			<img src="imgs/menuJS/icone.png" id="foto-menu">
+			
+		</header>
+		
+		
+	<nav class="menu" onmouseout="mudaFoto('imgs/menuJS/icone.png')">
+		<ul>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/dog.png')"><a href="rac-cachorro.html">Cachorros</a>
+				<ul>
+					<li><a href="prod-cachorro.html">Produtos</a></li>
+					<li><a href="rac-cachorro.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/cat.png')"><a href="rac-gato.html">Gatos</a>
+				<ul>
+					<li><a href="prod-gato.html">Produtos</a></li>
+					<li><a href="rac-gato.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/ave.png')"><a href="rac-ave.html">Aves</a>
+				<ul>
+					<li><a href="prod-ave.html">Produtos</a></li>
+					<li><a href="rac-ave.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/casa.png')"><a href="hotelaria.html">Serviços</a>
+				<ul>
+					<li><a href="hotelaria.html">Hotelaria</a></li>
+					<li><a href="funcionamento.html" style="font-size: 12px;">Funcionamento</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/camera.png')"><a href="fotos.html">Pets</a>
+				<ul>
+					<li><a href="fotos.html">Fotos</a></li>
+					<li><a href="racas.html">Sobre as Raças</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/osso.png')"><a href="dic-nutricionais.html">Dicas</a>
+				<ul>
+					<li><a href="dic-nutricionais.html">Nutricionais</a></li>
+					<li><a href="dic-banho.html">Banho</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/adota.png')"><a href="pq-adotar.html">Adoções</a>
+				<ul>
+					<li><a href="pq-adotar.html">Por que adotar?</a></li>
+					<li><a href="como-adotar.html">Como adotar?</a></li>
+					<li><a href="apadrinhar.html">Apadrinhar um pet</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/quem.png')"><a href="quem-somos.html">Sobre Nós</a>
+				<ul>
+					<li><a href="quem-somos.html">Quem Somos</a></li>
+					<li><a href="pcs.html">Parceiros</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/fale.png')"><a href="fale-conosco.html">Contato</a>
+				<ul>
+					<li><a href="fale-conosco.html">Enviar Mensagem</a></li>
+				</ul>
+			</li>
+			
+		
+			
+		</ul>
+		
+	</nav>
+	
+		<section>
+
+			<h1 id="titulo">Dicas para o banho</h1>
+
+			<div class="cima">
+
+				<div id="imagem">
+					<img src="imgs/img-banho/lavando.png">
+				</div>
+
+				<div id="texto">
+					<p>
+
+					 &nbsp; &nbsp; &nbsp; Nossa loja possui serviços de banho e tosa incluso na hotelaria, no entanto, caso algum de nossos clientes por motivos de economia, custume, praticidade ou qualquer outro prefira ele mesmo dar banho no seu pet em casa, seguem abaixo algumas dicas de como realizar o procedimento de maneira correta. <br><br>
+					 &nbsp; &nbsp; &nbsp; Lembramos que todas as seguintes dicas foram dadas por nossos profissionais, formados na área e com o devido conhecimento para poder dar dicas de como se efetuar os procedimentos de limpeza do seu pet em sua própria residencia.
+
+				</p>
+				</div>
+
+				<div id="desbug">
+				</div>
+
+				<hr>
+
+				<div class="conteudo">
+					<h2>Procedimentos</h2>
+
+
+					<p>
+						Antes de qualquer coisa, lembre-se de que a periodicidade de banho nos animais varia de acordo com sua espécie e raça (tipo de pelagem). Uma boa média é considerar banhos semanais em cães e trimestrais em gatos. Claro que, no caso de o animal se sujar excepcionalmente, esta frequência pode ser alterada.
+					</p>
+
+					<p>
+
+					Antes de vermos as dicas, vejamos um procedimento comum de banho em animais de estimação: <br><br>
+
+					Proteja os ouvidos do bicho com algodão;<br><br>
+
+					Comece dando o banho apenas do pescoço pra baixo pra não assustá-lo;<br><br>
+
+					Utilize água morna e produtos especializados;<br><br>
+
+					Comece por um sabonete antisséptico. Este produto pode irritar os olhos, por isso use-o apenas do pescoço para baixo;<br><br>
+
+					Esfregue cada patinha e entre os dedinhos;<br><br>
+
+					Enxague bem. Não deixe nada de produto na pele;<br><br>
+
+					Use shampoo neutro próprio para o bichinho (cachorro ou gato, pelo longo ou curto) que não irrite os olhos. Lave desde a cabecinha. Enxague;<br><br>
+
+					Use um condicionador próprio caso seu animal tenha pelos mais longos. Enxague;<br><br>
+
+					Cuidado sempre com o focinho. Não deixe entrar produto.<br><br>
+
+					Vá para a etapa de secagem e limpeza de ouvidos.<br><br>
+
+				</p>
+
+				<h3>Dicas para a hora do banho do seu pet</h3>
+
+				<p>Os conselhos abaixo trazem os cinco principais aspectos a se pensar na hora de banhar seu pet:</p>
+
+
+				<h3>Tenha cuidado com as orelhas</h3>
+
+				<p>Todos os donos de pets devem ter cuidados extras com as orelhas de seus animaizinhos, pois, geralmente, a anatomia das orelhas dos cães e gatos favorece a entrada de água (ao se molharem) e sujidades que podem causar doenças. <br><br>
+
+				Ao dar banho, utilize um algodão para proteger as orelhas do animal. Coloque um chumaço de algodão nos ouvidos e faça leve pressão para não entrar água. Cuidado para não aprofundar muito o algodão.<br><br>
+
+				Sempre confira os ouvidos após dar banho ou secar seu bichinho. Verifique se não ficou água, pois a umidade neste local pode trazer problemas de saúde e inflamações. E, importante: não se esqueça de tirar o algodão. O abafamento do local por períodos longos pode também provocar problemas.<br><br>
+
+				Para limpar as orelhas, faça-o separadamente, após o banho ou em outro momento. Você pode utilizar um algodão umedecido ou mesmo o cotonete, com muito cuidado para não introduzi-lo muito profundamente. Você também pode umedecer o algodão ou bastonete com um produto de limpeza específico. Jamais utilize objetos pontiagudos ou jogue água no ouvido de seu bichinho.<br><br>
+
+				É interessante também, conversar com o veterinário sobre produtos específicos que amolecem a cera dos ouvidos. Utilize apenas os produtos que o profissional recomendar. Não confie em receitas caseiras não testadas.</p>
+
+
+
+				<h3>Alerta para a secagem</h3>
+
+				<p>A umidade pode causar problemas de pele como fungos e bactérias. Por isso, seque bem o animal. Caso o dia esteja quente e ensolarado, você poderá apenas secá-lo com uma toalha e depois deixá-lo andar no sol, caso ele tenha pelos curtos.<br><br>
+
+				Mas lembre-se: se seu animal estiver úmido e o tempo estiver frio, com vento, ele poderá ficar com a resistência baixa e contrair um resfriado. Além disso, lembre-se de que, se você soltar seu pet livremente em um gramado ou local com terra, você corre o risco de colocar todo o banho a perder.<br><br>
+
+				O uso de um secador é obrigatório nos animais de pelos mais longos. Utilize escovas de arame (próprias para seu bichinho) e secador em temperatura fria ou morna. Jamais use o aparelho na temperatura quente sob o risco de causar queimaduras e machucar o animal.<br><br></p>
+
+
+
+				<h3>Cuidado com a temperatura da água</h3>
+
+				<p>Se você está acostumado (a) a tomar banho quente, de modo que a água passe pela pele com um pouquinho de ardência, saiba que esta temperatura é prejudicial até para você e será pior para o banho de seu bichinho.<br><br>
+
+				Utilize água morna no inverno. Teste sempre com a parte interna do braço, como é indicado no caso de banho de bebês.</p>
+
+				<h3>Locais para banhar seu animal</h3>
+
+				<p>Banheira, bacia, tanque, chuveiro etc. Para cachorros que gostam de banho, tanto faz o local. Já para animaizinhos que detestam esta hora, o ideal é escolher um local pequeno onde ele não possa escapar.<br><br>
+
+				Evite banhos ao ar livre se o tempo estiver frio ou com vento para evitar desconforto e resfriados.</p>
+
+				<h3>Mime seu bichinho</h3>
+
+				<p>Principalmente se seu pet não gosta do banho, mimá-lo após o procedimento é uma boa estratégia. Dê-lhe uma gostosura (própria para sua espécie) e faça muito carinho. Assim, ele sempre se lembrará de que a hora do banho pode ser muito boa!</p>
+
+				</div>
+				
+			</div>
+		
+	
+		</section>
+	
+<footer class="rodape">
+	
+		<div class="direitos"><h2>Copyright &copy; 2018 | Petshop BasPet</h2></div>
+		
+		<div class="icons">
+			<a href="rac-cachorro.html"><img src="imgs/icon-dog.png" title="Cachorros"></a>
+			<a href="rac-gato.html"><img src="imgs/icon-cat.png" title="Gatos"></a>
+			<a href="rac-ave.html"><img src="imgs/icon-bird.png" title="Aves"></a>
+		</div>
+		
+		<div class="buscas">
+			<h2>Mais buscados</h2>
+			
+			<div class="b1">
+				<a href="rac-cachorro.html"><p>Rações Cachorros</p></a>
+				<a href="rac-gato.html"><p>Rações Gatos</p></a>
+				<a href="rac-ave.html"><p>Rações Aves</p></a>
+				<a href="prod-cachorro.html"><p>Produtos Cachorros</p></a>
+			</div>
+			
+			<div class="b2">
+				<a href="hotelaria.html"><p>Hotelaria</p></a>
+				<a href="dic-banho.html"><p>Dicas de Banhos</p></a>
+				<a href="dic-nutricionais.html"><p>Dicas Nutricionais</p></a>
+				<a href="como-adotar.html"><p>Adoções</p></a>
+			</div>
+			
+			<div class="b3">
+				<a href="prod-cachorro.html"><p>Brinquedos</p></a>
+				<a href="prod-gato.html"><p>Produtos Pet</p></a>
+				<a href="dic-banho.html"><p>Como dar banho</p></a>
+				<a href="rac-ave.html"><p>Comida Passarinho</p></a>
+			</div>
+			
+			<div class="b4">
+				<a href="dic-banho.html"><p>Lavar Cachorros filhotes</p></a>
+				<a href="dic-banho.html"><p>Lavar Gatos filhotes</p></a>
+				<a href="dic-banho.html"><p>Lavar Passarinhos recém nascidos</p></a>
+				<a href="racas.html"><p>Raças de Cachorros</p></a>
+			</div>
+			
+			<div class="b5">
+				<a href="prod-ave.html"><p>Gaiolas</p></a>
+				<a href="prod-ave.html"><p>Argolinhas</p></a>
+				<a href="prod-cachorro.html"><p>Bichos de Pelúcia</p></a>
+				<a href="prod-cachorro.html"><p>Bebedouros</p></a>
+			</div>
+			
+			<div class="b6">
+				<a href="apadrinhar.html"><p>Apadrinhar</p></a>
+				<a href="como-adotar.html"><p>Como Adotar</p></a>
+				<a href="pcs.html"><p>Parceria</p></a>
+				<a href="pcs.html"><p>Marcas</p></a>
+			</div>
+			
+			<div class="b7">
+				<a href="fotos.html"><p>Fotos</p></a>
+				<a href="racas.html"><p>Raças</p></a>
+				<a href="prod-gato.html"><p>Tijelas</p></a>
+				<a href="prod-gato.html"><p>Aranhadores</p></a>
+			</div>
+			
+			<div id="fecha"></div>	
+		</div>
+		
+		<div class="fim">
+				<h2>Demais Utilidades</h2>
+				
+				<div class="cont">
+				
+					<div class="log">
+						<a href="index.html" title="BasPet - Petshop"><img src="imgs/logo.png"></a>
+					</div>
+					
+					<div class="central">
+						<p class="tit">Central do Cliente &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="fale-conosco.html"><p>Contato</p></a>
+						<a href="fale-conosco.html"><p>Envie-nos uma mensagem</p></a>
+						<a href="fale-conosco.html"><p>Fale Conosco</p></a>
+					</div>
+					
+					<div class="infos">
+						<p class="tit">Informações &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="quem-somos.html"><p>Nossa Loja</p></a>
+						<a href=""><p>Locais</p></a>
+						<a href=""><p>Unidades</p></a>
+					</div>
+					
+					<div class="tels">
+						<p class="tit">Telefones para contato &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<p><i class="fas fa-phone"></i> (11) 2704-3755</p>
+						<p><i class="fas fa-mobile-alt"></i> &nbsp;(11) 98795-2000</p>
+						<p><i class="fab fa-whatsapp"></i> (11) 98795-4879</p>
+					</div>
+					
+					<div class="social">
+						
+						<p class="tit">Redes Sociais &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="https://facebook.com"><i class="fab fa-facebook" id="fac"></i></a>
+						<a href="https://google.com"><i class="fab fa-google-plus-square" id="goog"></i></a>
+						<a href="https://twitter.com"><i class="fab fa-twitter-square" id="twi"></i></a>
+						<a href="https://instagram.com"><i class="fab fa-instagram" id="inst"></i></a>
+						
+					</div>
+					
+					
+				<div id="fecha"></div>
+				</div>
+				
+		</div>
+	
+		
+		
+	</footer>
+		
+			
+	</body>
+</html>

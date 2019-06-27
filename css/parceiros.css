@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#i {
+	
+	width:100px;
+	height:100px;
+	margin:70px;
+	margin-top:50px;
+	margin-right: 400px;
+	float:right;
+	border-radius: 50px;
+	color: #FFF
+	background-color: #000;
+
+
+}	
+
+#o {
+	
+	width:100px;
+	height:100px;
+	margin: 20px;
+	margin-right:50px;
+	float: right;
+	border-radius: 50px;
+	color: #FFF
+
+}
+
+#a{
+
+ 	font-size: 21px;
+	margin: 20px;
+	margin-top: -30px;
+	width: 97.5%;
+}

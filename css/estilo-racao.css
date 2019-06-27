@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.corpoPag{
+	width: 100%;
+}
+
+div.menuLat{
+	border: 1px solid black;
+	width: 12%;
+	margin: 5px;
+	float: left;
+}
+
+.menuLat h2{
+	
+	text-align: center;
+	background-color: #bbbbbb;
+	padding: 5px;
+	color: #5a5b5b;
+	font-family: 'Pangolin', cursive;
+	
+}
+
+.menuLat a{
+	color: #6b6c6d;
+	margin: 5px;
+}
+
+
+.menuLat a:hover{
+	color: #b3b5b7;
+}
+
+
+div.racoes{
+	float: left;
+	width: 85%;
+	margin-left: 20px;
+}
+
+.racoes ul{
+	list-style: none;
+}
+
+.racoes li{
+	display: inline-block;
+	/*border: 1px solid black;*/
+	width: 150px;
+	height: 130px;
+	margin: 20px 35px 0px 35px;
+}
+
+
+
+.racoes figcaption{
+	color: #000000;
+	text-align: center;
+	top: 50px;
+	font-size: 8pt;
+}
+
+.racoes span{
+	color: blue;
+	font-size: 12pt;
+}
+

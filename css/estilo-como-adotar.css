@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+body{
+	background-color: aliceblue;
+}
+
+#faixa{
+	width: 100%;
+	text-align: right;
+}
+
+a{
+	text-decoration: none;
+}
+
+.cabecalho{
+	width: 100%;
+	height: 150px;
+	background-color: #13c7ae;
+	position: relative;
+	
+	
+	
+}
+
+/*MENU COM JS*/
+
+img#foto-menu{
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+.logo a{
+	width: 181px;
+	height: 140px;
+	background: url(../imgs/logo.png);
+	font-size: 0px;
+	float: left;
+	margin-left: 30px;
+	
+}
+
+.cabecalho form{
+	margin-top: 50px;
+	margin-right: 50px;
+	float: right;
+	width: 30%;
+}
+
+.cabecalho input{
+	width: 85%;
+	float: left;
+	padding: 10px 5px;
+	height: 50px;
+	border-radius: 10px 0px 0px 10px;
+}
+.cabecalho button{
+	width: 15%;
+	float: right;
+	padding: 10px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 0px 10px 10px 0px;
+	border: none;
+	background-color: #0cae98;
+	
+}
+.cabecalho input:hover{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/*MENU NAV */
+
+.menu{
+	width: 100%;
+	height: 50px;
+	height: 53px;
+	background-color: #222;
+	
+}
+
+.menu ul{
+	list-style: none;
+	position: relative;
+}
+
+.menu ul li{
+	width: 122px;
+	float: left;
+}
+
+.menu a{
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	text-align: center;
+	background-color: #222;
+	color: #fff;
+}
+
+.menu ul ul{
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul li:hover>ul{
+	visibility: visible;
+}
+
+.menu a:hover{
+	background-color: #f4f4f4;
+	color: #555;
+}
+
+.menu ul ul li{
+	float: none;
+	border-bottom: 1px solid #ccc;
+}
+
+.menu ul ul li a{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*CORPO*/
+
+.le{
+	float: left;
+	width: 60%;
+	border-right: 1px solid black;
+	padding: 10px;
+}
+
+.ld{
+	padding: 10px;
+	float: left;
+	width: 35%;
+	margin-left: 10px;
+}
+
+/*RODAPÉ*/
+
+.rodape{
+	width: 100%;
+	clear: both;
+	border-top: 1px solid black;
+	background-color: #13c7ae;
+}
+
+.rodape h2{
+	text-align: center;
+	margin: 30px;
+}
+
+.icons{
+	width: 159px;
+	margin: 20px auto 20px auto;
+	/*border: 1px solid black;*/
+}
+
+.rodape div.direitos{
+	margin: 15px;
+}
+
+div.buscas{
+	border-top: 1px solid rgba(0, 0, 0, 0.3);
+	width: 90%;
+	margin: auto;
+	padding: 15px;
+}
+
+.rodape p{
+	font-size: 10pt;
+}
+
+.rodape a{
+	color: black;
+}
+
+.rodape a:hover{
+	text-decoration: underline;
+}
+
+.rodape a:active{
+	color: white;
+}
+
+.b1{
+	float: left;
+}
+
+.b2{
+	float: left;
+	margin-left: 50px;
+}
+
+.b3{
+	float: left;
+	margin-left: 50px;
+}
+
+.b4{
+	float: left;
+	margin-left: 50px;
+}
+
+.b5{
+	float: left;
+	margin-left: 50px;
+}
+
+.b6{
+	float: left;
+	margin-left: 50px;
+}
+
+.b7{
+	float: left;
+	margin-left: 50px;
+}
+
+
+#fecha{
+	clear: both;
+}
+
+
+div.fim{
+	border-top: 1px solid rgba(0, 0, 0, 0.3);
+	width: 90%;
+	margin: 30px auto;
+	padding: 15px;
+}
+
+.cont{
+	width: 100%;
+}
+
+.central{
+	float: left;
+	margin-left: 90px;
+}
+
+
+.log{
+	width: 181px;
+	float: left;
+}
+
+p.tit{
+	font-weight: bold;
+	font-size: 10pt;
+	text-decoration: underline;
+	margin: 20px 20px 20px 0px;
+}
+
+
+.infos{
+	float: left;
+	margin-left: 90px;
+}
+
+.tels{
+	float: left;
+	margin-left: 90px;
+}
+
+.social{
+	float: left;
+	margin-left: 90px;
+}
+
+.social i{
+	font-size: 30px;
+}
+
+#fac:hover{
+	color: #3b5998;
+}
+
+#goog:hover{
+	color: #d34836;
+}
+
+#twi:hover{
+	color: #0084b4;
+}
+
+#inst:hover{
+	#3f729b;
+}
+
+/* DESEJA ADOTAR */
+
+#adote {
+	height: 720px;
+	margin: 20px;
+}
+
+#quero {
+	text-align: left;
+	border-color: #222;
+	width: 500px;
+	padding: 10px;
+}
+
+#Porque {
+	border-color: #222;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+
+#padote {
+	font-weight: bold;
+	
+
+}
+
+#queroadt1 {
+	background-color: #13c7ae;
+	border: 2px solid black;
+	border-radius: 10px 10px 10px 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#queroadt2 {
+	background-color: #13c7ae;
+	border: 2px solid black;
+	border-radius: 10px 10px 10px 10px;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+}
+
+#imagem {
+	float: right;
+	border: 2px solid black;
+	height: 434px;
+}
+
+
+
+
+
+
+
+
+
+

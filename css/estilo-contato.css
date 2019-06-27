@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+div.formulario{
+	width: 100%;
+}
+
+nav.menu{
+	margin-bottom: 50px;
+}
+
+h6{
+	margin-left: 50px;
+	margin-bottom: 50px;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+	
+}
+
+
+fieldset{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+fieldset.dados{
+	background: url(../imgs/form.png) no-repeat right bottom;
+}
+
+legend{
+	color: #666666;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-left: 20px;
+	
+}
+
+
+
+.dados input{
+	margin: 10px;
+}
+
+label{
+	margin-left: 20px;
+}
+
+.duvida textarea{
+	margin-left: 20px;
+}
+.duvida input{
+	margin-left: 20px;
+}
+
+.fff input:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.fff textarea:hover{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+

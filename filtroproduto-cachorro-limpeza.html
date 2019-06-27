@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Petshop - BasPet</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilobase.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<script language="JavaScript" src="js/menu.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/estilo-produto.css">
+	</head>
+	
+	<body>
+	
+
+		
+		<header class="cabecalho">
+		
+			<h1 class="logo">
+				<a href="index.html" title="BasPet - Petshop">Petshop BasPet</a>
+			</h1>
+			
+			<form action="busca.php" method="post">
+				<input type="search" name="busc" placeholder="Buscar algo...">
+				<button><i class="fas fa-search"></i></button>
+			</form>
+			
+			<img src="imgs/menuJS/dog.png" id="foto-menu">
+			
+		</header>
+		
+		
+	<nav class="menu" onmouseout="mudaFoto('imgs/menuJS/dog.png')">
+		<ul>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/dog.png')"><a href="rac-cachorro.html">Cachorros</a>
+				<ul>
+					<li><a href="prod-cachorro.html">Produtos</a></li>
+					<li><a href="rac-cachorro.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/cat.png')"><a href="rac-gato.html">Gatos</a>
+				<ul>
+					<li><a href="prod-gato.html">Produtos</a></li>
+					<li><a href="rac-gato.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/ave.png')"><a href="rac-ave.html">Aves</a>
+				<ul>
+					<li><a href="prod-ave.html">Produtos</a></li>
+					<li><a href="rac-ave.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/casa.png')"><a href="hotelaria.html">Serviços</a>
+				<ul>
+					<li><a href="hotelaria.html">Hotelaria</a></li>
+					<li><a href="funcionamento.html" style="font-size: 12px;">Funcionamento</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/camera.png')"><a href="fotos.html">Pets</a>
+				<ul>
+					<li><a href="fotos.html">Fotos</a></li>
+					<li><a href="racas.html">Sobre as Raças</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/osso.png')"><a href="dic-nutricionais.html">Dicas</a>
+				<ul>
+					<li><a href="dic-nutricionais.html">Nutricionais</a></li>
+					<li><a href="dic-banho.html">Banho</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/adota.png')"><a href="pq-adotar.html">Adoções</a>
+				<ul>
+					<li><a href="pq-adotar.html">Por que adotar?</a></li>
+					<li><a href="como-adotar.html">Como adotar?</a></li>
+					<li><a href="apadrinhar.html">Apadrinhar um pet</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/quem.png')"><a href="quem-somos.html">Sobre Nós</a>
+				<ul>
+					<li><a href="quem-somos.html">Quem Somos</a></li>
+					<li><a href="pcs.html">Parceiros</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/fale.png')"><a href="fale-conosco.html">Contato</a>
+				<ul>
+					<li><a href="fale-conosco.html">Enviar Mensagem</a></li>
+				</ul>
+			</li>
+			
+
+			
+		</ul>
+		
+	</nav>
+	
+		<section class="corpoPag">
+		
+			<div class="menuLat">
+				
+				<h2>Categoria: </h2>
+				<ul>
+					<li><a href="rac-cachorro.html">Rações</a></li>
+					<li><a href="prod-cachorro.html">Produtos</a></li>
+				</ul>
+				
+				<h2>Animais:</h2>
+				<ul>
+					<li><a href="prod-cachorro.html">Cachorros</a></li>
+					<li><a href="prod-gato.html">Gatos</a></li>
+					<li><a href="prod-ave.html">Aves</a></li>
+				</ul>
+				
+				<h2>Tipos:</h2>
+				<ul>
+					<li><a href="filtroproduto-cachorro-acessorios.html">Acessórios</a></li>
+					<li><a href="filtroproduto-cachorro-limpeza.html">Limpeza</a></li>
+					<li><a href="prod-cachorro.html">Todos</a></li>
+				</ul>
+				
+			</div>
+			
+			<div class="racoes">
+				<ul>
+					
+					<a href="detalhe-produto-cao06.html" title="Removedor de Odores Sanol para Cachorros"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio06.png"> <figcaption>Removedor de Odores Sanol<br>para Cães<br><span>R$12,70</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-produto-cao07.html" title="Kit de banho Sanol 1 Shampoo + 1 Colônia"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio07.png"> <figcaption>Kit de banho Sanol<br>1 Shampoo + 1 Colônia<br><span>R$17,90</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-produto-cao08.html" title="Shampoo PROCÃO para filhotes"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio08.png"> <figcaption>Shampoo PROCÃO<br>para filhotes<br><span>R$9,49</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-produto-cao09.html" title="Shampoo Condicionador PROCÃO para adultos"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio09.png"> <figcaption>Shampoo Condicionador<br>PROCÃO para adultos<br><span>R$9,49</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-produto-cao10.html" title="Sanol Shampoo para pelos escuros"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio10.png"> <figcaption>Sanol Shampoo para<br>pelos escuros<br><span>R$10,00</span></figcaption> 
+						</figure>
+					</li></a>
+					
+				
+					
+					<a href="detalhe-produto-cao11.html" title="Sanol Shampoo para pelos claros"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio11.png"> <figcaption>Sanol Shampoo para<br>pelos claros<br><span>R$10,00</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-produto-cao12.html" title="Sanol Shampoo Neutro"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio12.png"> <figcaption>Sanol Shampoo neutro<br>para cachorros<br><span>R$10,00</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-produto-cao13.html" title="Osso Dental Keldog"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio13.png"> <figcaption>Osso Deltal Keldog<br>para Cachorros<br><span>R$26,99</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-produto-cao14.html" title="Osso Dental Keldog Bolinha"><li>
+						<figure> 
+							<img src="imgs/_imagensproduto/cachorro/acessorio14.png"> <figcaption>Osso Deltal Keldog<br> Bolinhas para Cachorros<br><span>R$27,99</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					
+				</ul>
+			</div>
+		
+	
+		</section>
+	
+	<footer class="rodape">
+	
+		<div class="direitos"><h2>Copyright &copy; 2018 | Petshop BasPet</h2></div>
+		
+		<div class="icons">
+			<a href="rac-cachorro.html"><img src="imgs/icon-dog.png" title="Cachorros"></a>
+			<a href="rac-gato.html"><img src="imgs/icon-cat.png" title="Gatos"></a>
+			<a href="rac-ave.html"><img src="imgs/icon-bird.png" title="Aves"></a>
+		</div>
+		
+		<div class="buscas">
+			<h2>Mais buscados</h2>
+			
+			<div class="b1">
+				<a href="rac-cachorro.html"><p>Rações Cachorros</p></a>
+				<a href="rac-gato.html"><p>Rações Gatos</p></a>
+				<a href="rac-ave.html"><p>Rações Aves</p></a>
+				<a href="prod-cachorro.html"><p>Produtos Cachorros</p></a>
+			</div>
+			
+			<div class="b2">
+				<a href="hotelaria.html"><p>Hotelaria</p></a>
+				<a href="funcionamento.html"><p>Como Funciona</p></a>
+				<a href="dic-nutricionais.html"><p>Dicas Nutricionais</p></a>
+				<a href="como-adotar.html"><p>Adoções</p></a>
+			</div>
+			
+			<div class="b3">
+				<a href="prod-cachorro.html"><p>Brinquedos</p></a>
+				<a href="prod-gato.html"><p>Produtos Pet</p></a>
+				<a href="dic-banho.html"><p>Como dar banho</p></a>
+				<a href="rac-ave.html"><p>Comida Passarinho</p></a>
+			</div>
+			
+			<div class="b4">
+				<a href="dic-banho.html"><p>Lavar Cachorros filhotes</p></a>
+				<a href="dic-banho.html"><p>Lavar Gatos filhotes</p></a>
+				<a href="dic-banho.html"><p>Lavar Passarinhos recém nascidos</p></a>
+				<a href="racas.html"><p>Raças de Cachorros</p></a>
+			</div>
+			
+			<div class="b5">
+				<a href="prod-ave.html"><p>Gaiolas</p></a>
+				<a href="prod-ave.html"><p>Argolinhas</p></a>
+				<a href="prod-cachorro.html"><p>Bichos de Pelúcia</p></a>
+				<a href="prod-cachorro.html"><p>Bebedouros</p></a>
+			</div>
+			
+			<div class="b6">
+				<a href="apadrinhar.html"><p>Apadrinhar</p></a>
+				<a href="como-adotar.html"><p>Como Adotar</p></a>
+				<a href="pcs.html"><p>Parceria</p></a>
+				<a href="pcs.html"><p>Marcas</p></a>
+			</div>
+			
+			<div class="b7">
+				<a href="fotos.html"><p>Fotos</p></a>
+				<a href="racas.html"><p>Raças</p></a>
+				<a href="prod-gato.html"><p>Tijelas</p></a>
+				<a href="prod-gato.html"><p>Arranhadores</p></a>
+			</div>
+			
+			<div id="fecha"></div>	
+		</div>
+		
+		<div class="fim">
+				<h2>Demais Utilidades</h2>
+				
+				<div class="cont">
+				
+					<div class="log">
+						<a href="index.html" title="BasPet - Petshop"><img src="imgs/logo.png"></a>
+					</div>
+					
+					<div class="central">
+						<p class="tit">Central do Cliente &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="fale-conosco.html"><p>Contato</p></a>
+						<a href="fale-conosco.html"><p>Envie-nos uma mensagem</p></a>
+						<a href="fale-conosco.html"><p>Fale Conosco</p></a>
+					</div>
+					
+					<div class="infos">
+						<p class="tit">Informações &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="quem-somos.html"><p>Nossa Loja</p></a>
+						<a href=""><p>Locais</p></a>
+						<a href=""><p>Unidades</p></a>
+					</div>
+					
+					<div class="tels">
+						<p class="tit">Telefones para contato &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<p><i class="fas fa-phone"></i> (11) 2704-3755</p>
+						<p><i class="fas fa-mobile-alt"></i> &nbsp;(11) 98795-2000</p>
+						<p><i class="fab fa-whatsapp"></i> (11) 98795-4879</p>
+					</div>
+					
+					<div class="social">
+						
+						<p class="tit">Redes Sociais &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="https://facebook.com"><i class="fab fa-facebook" id="fac"></i></a>
+						<a href="https://google.com"><i class="fab fa-google-plus-square" id="goog"></i></a>
+						<a href="https://twitter.com"><i class="fab fa-twitter-square" id="twi"></i></a>
+						<a href="https://instagram.com"><i class="fab fa-instagram" id="inst"></i></a>
+						
+					</div>
+					
+					
+				<div id="fecha"></div>
+				</div>
+				
+		</div>
+	
+		
+		
+	</footer>
+		
+			
+	</body>
+</html>

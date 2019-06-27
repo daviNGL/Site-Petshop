@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Petshop - BasPet</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilobase.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<script language="JavaScript" src="js/menu.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/detalhes.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo-racao.css">
+	</head>
+	
+	<body>
+	
+
+		
+		<header class="cabecalho">
+		
+			<h1 class="logo">
+				<a href="index.html" title="BasPet - Petshop">Petshop BasPet</a>
+			</h1>
+			
+			<form action="busca.php" method="post">
+				<input type="search" name="busc" placeholder="Buscar algo...">
+				<button><i class="fas fa-search"></i></button>
+			</form>
+			
+			<img src="imgs/menuJS/cat.png" id="foto-menu">
+			
+		</header>
+		
+		
+	<nav class="menu" onmouseout="mudaFoto('imgs/menuJS/cat.png')">
+		<ul>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/dog.png')"><a href="rac-cachorro.html">Cachorros</a>
+				<ul>
+					<li><a href="prod-cachorro.html">Produtos</a></li>
+					<li><a href="rac-cachorro.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/cat.png')"><a href="rac-gato.html">Gatos</a>
+				<ul>
+					<li><a href="prod-gato.html">Produtos</a></li>
+					<li><a href="rac-gato.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/ave.png')"><a href="rac-ave.html">Aves</a>
+				<ul>
+					<li><a href="prod-ave.html">Produtos</a></li>
+					<li><a href="rac-ave.html">Rações</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/casa.png')"><a href="hotelaria.html">Serviços</a>
+				<ul>
+					<li><a href="hotelaria.html">Hotelaria</a></li>
+					<li><a href="funcionamento.html" style="font-size: 12px;">Funcionamento</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/camera.png')"><a href="fotos.html">Pets</a>
+				<ul>
+					<li><a href="fotos.html">Fotos</a></li>
+					<li><a href="racas.html">Sobre as Raças</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/osso.png')"><a href="dic-nutricionais.html">Dicas</a>
+				<ul>
+					<li><a href="dic-nutricionais.html">Nutricionais</a></li>
+					<li><a href="dic-banho.html">Banho</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/adota.png')"><a href="pq-adotar.html">Adoções</a>
+				<ul>
+					<li><a href="pq-adotar.html">Por que adotar?</a></li>
+					<li><a href="como-adotar.html">Como adotar?</a></li>
+					<li><a href="apadrinhar.html">Apadrinhar um pet</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/quem.png')"><a href="quem-somos.html">Sobre Nós</a>
+				<ul>
+					<li><a href="quem-somos.html">Quem Somos</a></li>
+					<li><a href="pcs.html">Parceiros</a></li>
+				</ul>
+			</li>
+			
+			<li onmouseover="mudaFoto('imgs/menuJS/fale.png')"><a href="fale-conosco.html">Contato</a>
+				<ul>
+					<li><a href="fale-conosco.html">Enviar Mensagem</a></li>
+				</ul>
+			</li>
+			
+
+			
+		</ul>
+		
+	</nav>
+	
+		
+		<section class="corpoPag">			
+					
+					
+					
+				<h6 class="pags"><a href="index.html">Home</a> > <a href="rac-gato.html">Gatos</a> > <a href="rac-gato.html">Rações</a> > <a href="">Detalhes da Ração</a></h6>
+				
+				<div class="container">
+					
+					<div class="zoom">
+						<img src="imgs/detalhes/gato-r03.png" title="Ração BeautyPet Sabor Carne para Gatos Adultos 3KG">
+					</div>
+					
+					<div class="descricao">
+						
+						<br><br><br>
+						<h2>Ração BeautyPet Sabor Carne para Gatos Adultos 3KG</h2>
+						
+						<ul>
+							<li>- Ração BeautyPet Sabor Carne para Gatos Adultos 3KG;</li>
+							<li>- Músculos fortes;</li>
+							<li>- Naturalmente saudável: sem corantes e aromatizantes artificiais;</li>
+							<li>- Sabor irresistível rico em proteínas de alta qualidade;</li>
+							<li>- Enriquecido com vitaminas e minerais essenciais para maior saúde e vitalidade;</li>
+							<li>- Intestinos equilibrados: fezes firmes e fáceis de limpar;</li>
+							<li>- <span>Preço: R$32,50</span></li>
+						</ul>
+						
+					</div>
+					
+					<div class="sit">
+						
+						<table border="1px">
+							<tr>
+								<td><b>Cod do Produto</b></td>
+								<td><b>Disponibilidade</b></td>
+								<td><b>Unidades</b></td>
+							</tr>
+							<tr class="center">
+								<td>666</td>
+								<td><span>Disponível</span></td>
+								<td>40</td>
+							</tr>
+							
+						</table>
+						
+					</div>
+					
+				</div>		
+		
+		</section>
+		
+		<section class="relacionados">
+			<hr>
+			<h1>Produtos Recomendados</h1>
+			
+			<div class="racoes">
+				<ul>
+					
+					<a href="detalhe-racao-gato03.html" title="Ração BeautyPet Carne Gatos Adultos 3KG"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat03.png"> <figcaption>Ração BeautyPet Sabor Carne<br>Gatos Adultos 3KG<br><span>R$32,50</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-racao-gato04.html" title="Ração TopCat Sabor Carne, Peixe e Vegetais 1KG"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat04.png"> <figcaption>Ração TopCat Sabor Carne<br>Gatos Adultos 1KG<br><span>R$17,90</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-racao-gato05.html" title="Whiskas para Gatos Sabor Frango 100g"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat05.png"> <figcaption>Whiskas para Gatos<br>Sabor Frango 100g<br><span>R$13,90</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-racao-gato07.html" title="Whiskas para Gatos Sabor Cordeiro 100g"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat07.png"> <figcaption>Whiskas para Gatos<br>Sabor Cordeiro 100g<br><span>R$13,50</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-racao-gato06.html" title="Whiskas para Gatos Sabor Carne 100g"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat06.png"> <figcaption>Whiskas para Gatos<br>Sabor Carne 100g<br><span>R$14,00</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-racao-gato08.html" title="Purina Friskies Sabor Atum 85g"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat08.png"> <figcaption>Purina Friskies<br>Sabor Atum 85g<br><span>R$10,90</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-racao-gato09.html" title="Purina Friskies Sabor Frango 85g"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat09.png"> <figcaption>Purina Friskies<br>Sabor Frango 85g<br><span>R$10,50</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-racao-gato10.html" title="Purina Friskies Sabor Peixe 85g"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat10.png"> <figcaption>Purina Firiskies<br>Sabor Peixe 85g<br><span>R$11,00</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					
+					<a href="detalhe-racao-gato06.html" title="Ração Whiskas Carne Leite e Frango Gatos Adultos 1KG"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat14.png"> <figcaption>Ração Whiskas Carne Leite e<br>Frango Gatos Adultos 1KG<br><span>R$42,90</span></figcaption> 
+						</figure>
+					</li></a>
+					
+					<a href="detalhe-racao-gato07.html" title="Ração Whiskas Sabor Peixe Gatos Filhotes 500g"><li>
+						<figure> 
+							<img src="imgs/_imagensracao/racao-cat15.png"> <figcaption>Ração Whiskas Sabor Peixe<br>Gatos Filhotes 500g<br><span>R$11,20</span></figcaption> 
+						</figure>
+					</li></a>
+		
+				
+					
+				</ul>
+			</div>
+		</section>
+	
+	<footer class="rodape">
+	
+		<div class="direitos"><h2>Copyright &copy; 2018 | Petshop BasPet</h2></div>
+		
+		<div class="icons">
+			<a href="rac-cachorro.html"><img src="imgs/icon-dog.png" title="Cachorros"></a>
+			<a href="rac-gato.html"><img src="imgs/icon-cat.png" title="Gatos"></a>
+			<a href="rac-ave.html"><img src="imgs/icon-bird.png" title="Aves"></a>
+		</div>
+		
+		<div class="buscas">
+			<h2>Mais buscados</h2>
+			
+			<div class="b1">
+				<a href="rac-cachorro.html"><p>Rações Cachorros</p></a>
+				<a href="rac-gato.html"><p>Rações Gatos</p></a>
+				<a href="rac-ave.html"><p>Rações Aves</p></a>
+				<a href="prod-cachorro.html"><p>Produtos Cachorros</p></a>
+			</div>
+			
+			<div class="b2">
+				<a href="hotelaria.html"><p>Hotelaria</p></a>
+				<a href="funcionamento.html"><p>Como Funciona</p></a>
+				<a href="dic-nutricionais.html"><p>Dicas Nutricionais</p></a>
+				<a href="como-adotar.html"><p>Adoções</p></a>
+			</div>
+			
+			<div class="b3">
+				<a href="prod-cachorro.html"><p>Brinquedos</p></a>
+				<a href="prod-gato.html"><p>Produtos Pet</p></a>
+				<a href="dic-banho.html"><p>Como dar banho</p></a>
+				<a href="rac-ave.html"><p>Comida Passarinho</p></a>
+			</div>
+			
+			<div class="b4">
+				<a href="dic-banho.html"><p>Lavar Cachorros filhotes</p></a>
+				<a href="dic-banho.html"><p>Lavar Gatos filhotes</p></a>
+				<a href="dic-banho.html"><p>Lavar Passarinhos recém nascidos</p></a>
+				<a href="racas.html"><p>Raças de Cachorros</p></a>
+			</div>
+			
+			<div class="b5">
+				<a href="prod-ave.html"><p>Gaiolas</p></a>
+				<a href="prod-ave.html"><p>Argolinhas</p></a>
+				<a href="prod-cachorro.html"><p>Bichos de Pelúcia</p></a>
+				<a href="prod-cachorro.html"><p>Bebedouros</p></a>
+			</div>
+			
+			<div class="b6">
+				<a href="apadrinhar.html"><p>Apadrinhar</p></a>
+				<a href="como-adotar.html"><p>Como Adotar</p></a>
+				<a href="pcs.html"><p>Parceria</p></a>
+				<a href="pcs.html"><p>Marcas</p></a>
+			</div>
+			
+			<div class="b7">
+				<a href="fotos.html"><p>Fotos</p></a>
+				<a href="racas.html"><p>Raças</p></a>
+				<a href="prod-gato.html"><p>Tijelas</p></a>
+				<a href="prod-gato.html"><p>Arranhadores</p></a>
+			</div>
+			
+			<div id="fecha"></div>	
+		</div>
+		
+		<div class="fim">
+				<h2>Demais Utilidades</h2>
+				
+				<div class="cont">
+				
+					<div class="log">
+						<a href="index.html" title="BasPet - Petshop"><img src="imgs/logo.png"></a>
+					</div>
+					
+					<div class="central">
+						<p class="tit">Central do Cliente &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="fale-conosco.html"><p>Contato</p></a>
+						<a href="fale-conosco.html"><p>Envie-nos uma mensagem</p></a>
+						<a href="fale-conosco.html"><p>Fale Conosco</p></a>
+					</div>
+					
+					<div class="infos">
+						<p class="tit">Informações &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="quem-somos.html"><p>Nossa Loja</p></a>
+						<a href=""><p>Locais</p></a>
+						<a href=""><p>Unidades</p></a>
+					</div>
+					
+					<div class="tels">
+						<p class="tit">Telefones para contato &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<p><i class="fas fa-phone"></i> (11) 2704-3755</p>
+						<p><i class="fas fa-mobile-alt"></i> &nbsp;(11) 98795-2000</p>
+						<p><i class="fab fa-whatsapp"></i> (11) 98795-4879</p>
+					</div>
+					
+					<div class="social">
+						
+						<p class="tit">Redes Sociais &nbsp; &nbsp; &nbsp; &nbsp;</p>
+						
+						<a href="https://facebook.com"><i class="fab fa-facebook" id="fac"></i></a>
+						<a href="https://google.com"><i class="fab fa-google-plus-square" id="goog"></i></a>
+						<a href="https://twitter.com"><i class="fab fa-twitter-square" id="twi"></i></a>
+						<a href="https://instagram.com"><i class="fab fa-instagram" id="inst"></i></a>
+						
+					</div>
+					
+					
+				<div id="fecha"></div>
+				</div>
+				
+		</div>
+	
+		
+		
+	</footer>
+		
+			
+	</body>
+</html>

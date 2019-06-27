@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.corpoPag h6{
+	
+	margin: 20px;
+	font-size: 10pt;
+	color: #8d8e8e;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.container{
+	width: 100%;
+	border: 1px solid black;
+}
+
+.container div.zoom{
+	width: 25%;
+	height: 300px;
+	/*border: 1px solid black;*/
+	margin: 25px;
+	float: left;
+}
+
+.zoom{
+	overflow: hidden;
+}
+.zoom img{
+	max-width: 100%;
+	transition: 0.3s;
+}
+.zoom img:hover{
+	transform: scale(1.2);
+}
+
+.container div.descricao{
+	float: left;
+}
+
+.descricao{
+	width: 50%;
+	/*border: 1px solid black;*/
+}
+
+.descricao ul{
+	list-style: none;
+	margin-top: 20px;
+}
+
+.descricao li{
+	font-size: 11pt;
+	margin-top: 5px;
+}
+
+.descricao h2{
+	font-size: 20pt;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.sit{
+	float: left;
+	width: 20%;
+	margin-top: 30px;
+	/*border: 1px solid black;*/
+}
+
+
+
+.sit table{
+	font-size: 10pt;
+	margin-top: 30px;
+	background-color: #e3e5e8;
+}
+
+.sit table td{
+	padding: 5px;
+}
+
+.center td{
+	text-align: center;
+}
+
+.center span{
+	color: blue;
+}
+
+
+.relacionados{
+	clear: both;
+}
+
+.relacionados h1{
+	font-size: 17pt;
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px 20px 30px 20px;
+}
+
+.descricao span{
+	color: blue;
+}
+
+.pags a{
+	text-decoration: none;
+	margin: 20px;
+	font-size: 10pt;
+	color: #8d8e8e;
+	font-family: 'Poppins', sans-serif;
+}
