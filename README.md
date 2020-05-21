@@ -4,12 +4,13 @@
 
 ######  Foi exigido um site estático, logo, não há páginas dinâmicas como php ou jsp.
 
-###### Por conta disso, há uma quantidade imensa de páginas relacionadas aos produtos. Pois para cada mudança de imagem ou titulo do produto, foi necessário criar uma página nova.
+###### Por conta disso, há uma quantidade imensa de páginas relacionadas aos produtos. Pois para cada mudança de imagem ou título do produto, foi necessário criar uma página nova.
 
 ### Tecnologias utilizadas:
 
 	-HTML 5
-	CSS3
-	Java Script
+	-CSS3
+	-Java Script
+
 
 ###### O sistema tem a função principal, apenas de apresentar a loja, bem como os produtos vendidos. Não tem a função de realizar vendas online, ou ser um sistema de gerenciamento com o CRUD completo.
